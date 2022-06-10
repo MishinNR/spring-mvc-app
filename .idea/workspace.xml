@@ -9,13 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="046ca251-8da8-4c09-97a8-0e785274c116" name="Changes" comment="add tomcat">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mishin/spring/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContextMVC.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hello_world.html" afterDir="false" />
+    <list default="true" id="046ca251-8da8-4c09-97a8-0e785274c116" name="Changes" comment="add controller hello-world">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +52,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "build.tools"
+    "settings.editor.selected.configurable": "build.tools",
+    "spring.configuration.checksum": "3282129d7582dc9b340640dd5135b5bf"
   }
 }]]></component>
   <component name="RunManager">
@@ -158,7 +154,8 @@
       <option name="presentableId" value="Default" />
       <updated>1654811479778</updated>
       <workItem from="1654811481122" duration="517000" />
-      <workItem from="1654812019455" duration="2018000" />
+      <workItem from="1654812019455" duration="2238000" />
+      <workItem from="1654839471298" duration="963000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1654811552455</created>
@@ -174,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654812410960</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add controller /hello-world">
+      <created>1654814218160</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654814218160</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +198,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="add tomcat" />
-    <option name="LAST_COMMIT_MESSAGE" value="add tomcat" />
+    <MESSAGE value="add controller /hello-world" />
+    <option name="LAST_COMMIT_MESSAGE" value="add controller /hello-world" />
   </component>
 </project>
