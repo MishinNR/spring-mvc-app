@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class HelloController {
     @GetMapping("/hello-world")
     public String sayHello() {
-        // Возрвщаем пользователю view из /WEB-INF/views/hello_world.html
+        // Возврщаем пользователю view из /WEB-INF/views/hello_world.html
         return "hello_world";
     }
 }
