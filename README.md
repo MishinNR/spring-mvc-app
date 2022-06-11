@@ -1,2 +1,2 @@
-Смотреть в FirstController.java. \n
+Смотреть в FirstController.java.
 Обработка запроса (request) через аннотацию RequestParam.
