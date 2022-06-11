@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="046ca251-8da8-4c09-97a8-0e785274c116" name="Changes" comment="correction errors">
+    <list default="true" id="046ca251-8da8-4c09-97a8-0e785274c116" name="Changes" comment="test HttpServletRequest from GET request">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/mishin/spring/controllers/FirstController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mishin/spring/controllers/FirstController.java" afterDir="false" />
     </list>
@@ -29,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="configuration_java_code" />
+        <entry key="$PROJECT_DIR$" value="get_HttpServletRequest" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -164,6 +164,7 @@
         <item itemvalue="HTTP Request.generated-requests | #1" />
         <item itemvalue="HTTP Request.generated-requests | #1" />
         <item itemvalue="HTTP Request.generated-requests | #1" />
+        <item itemvalue="HTTP Request.generated-requests | #1" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654841436915</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="test HttpServletRequest from GET request">
+      <created>1654961994993</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654961994993</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +257,7 @@
     <MESSAGE value="add controller /hello-world" />
     <MESSAGE value="add controller hello-world" />
     <MESSAGE value="correction errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="correction errors" />
+    <MESSAGE value="test HttpServletRequest from GET request" />
+    <option name="LAST_COMMIT_MESSAGE" value="test HttpServletRequest from GET request" />
   </component>
 </project>
