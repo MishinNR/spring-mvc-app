@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 @RequestMapping("/first")
 public class FirstController {
     @GetMapping("/hello")
+    // Внедрение аннотации RequestParam, для обработки параметра GET запроса
     public String helloPage(@RequestParam("name") String name,
                             @RequestParam("surname") String surname) {
         System.out.println("Hello, " + name + " " + surname);

@@ -9,8 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="046ca251-8da8-4c09-97a8-0e785274c116" name="Changes" comment="test HttpServletRequest from GET request">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="046ca251-8da8-4c09-97a8-0e785274c116" name="Changes" comment="test @RequestParam from GET request">
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/mishin/spring/controllers/FirstController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mishin/spring/controllers/FirstController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -222,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654961994993</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="test @RequestParam from GET request">
+      <created>1654962517166</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654962517166</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,6 +264,7 @@
     <MESSAGE value="add controller hello-world" />
     <MESSAGE value="correction errors" />
     <MESSAGE value="test HttpServletRequest from GET request" />
-    <option name="LAST_COMMIT_MESSAGE" value="test HttpServletRequest from GET request" />
+    <MESSAGE value="test @RequestParam from GET request" />
+    <option name="LAST_COMMIT_MESSAGE" value="test @RequestParam from GET request" />
   </component>
 </project>
