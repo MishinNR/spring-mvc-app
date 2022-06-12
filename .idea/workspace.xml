@@ -9,8 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="046ca251-8da8-4c09-97a8-0e785274c116" name="Changes" comment="test @RequestParam from GET request">
+    <list default="true" id="046ca251-8da8-4c09-97a8-0e785274c116" name="Changes" comment="test RequestParam from GET request">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/mishin/spring/controllers/FirstController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mishin/spring/controllers/FirstController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/goodbye.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/goodbye.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/hello.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,15 +23,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="get_HttpServletRequest" />
+        <entry key="$PROJECT_DIR$" value="get_RequestParam" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -178,6 +181,8 @@
       <workItem from="1654811481122" duration="517000" />
       <workItem from="1654812019455" duration="2238000" />
       <workItem from="1654839471298" duration="3484000" />
+      <workItem from="1654963125899" duration="90000" />
+      <workItem from="1655028980274" duration="2387000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1654811552455</created>
