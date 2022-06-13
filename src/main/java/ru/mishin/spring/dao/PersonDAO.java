@@ -29,4 +29,9 @@ public class PersonDAO {
         // lambda выражение person по id
         return people.stream().filter(person -> person.getId() == id).findAny().orElse(null);
     }
+
+    public void save(Person person) {
+        person.setId(++PEOPLE_COUNT);
+        people.add(person);
+    }
 }
