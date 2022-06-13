@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>All people</title>
+</head>
+<body>
+
+<!--
+     В контроллере PeopleController в модель поместили все объекты класса Person.
+     В thymeleaf через цыкл for-each (th:each="person : ${people}")
+     проходим по всем объектам класса.
+-->
+<div th:each="person : ${people}">
+<!--
+     1. По id для каждого person обращаемся к URL-адресу,
+        который описан в методе контроллера show()
+     2. Отображаем имя для каждого объекта person полученного в for-each
+-->
+    <a th:href="@{/people/{id}(id=${person.getId()})}"
+       th:text="${person.getName()}">User
+    </a>
+</div>
+
+</body>
+</html>
