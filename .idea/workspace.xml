@@ -9,13 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="046ca251-8da8-4c09-97a8-0e785274c116" name="Changes" comment="create CRUD application">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
+    <list default="true" id="046ca251-8da8-4c09-97a8-0e785274c116" name="Changes" comment="add methods newPerson, create">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mishin/spring/config/MySpringMvcDispatcherServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mishin/spring/config/MySpringMvcDispatcherServletInitializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/mishin/spring/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mishin/spring/controllers/PeopleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/mishin/spring/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mishin/spring/dao/PersonDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mishin/spring/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mishin/spring/models/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +64,9 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;3282129d7582dc9b340640dd5135b5bf&quot;
   }
@@ -185,7 +190,7 @@
       <workItem from="1654839471298" duration="3484000" />
       <workItem from="1654963125899" duration="90000" />
       <workItem from="1655028980274" duration="3397000" />
-      <workItem from="1655115950158" duration="10092000" />
+      <workItem from="1655115950158" duration="15197000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1654811552455</created>
@@ -250,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655124667247</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add methods newPerson, create">
+      <created>1655135192633</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1655135192633</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +301,7 @@
     <MESSAGE value="test @RequestParam from GET request" />
     <MESSAGE value="controller-model-view" />
     <MESSAGE value="create CRUD application" />
-    <option name="LAST_COMMIT_MESSAGE" value="create CRUD application" />
+    <MESSAGE value="add methods newPerson, create" />
+    <option name="LAST_COMMIT_MESSAGE" value="add methods newPerson, create" />
   </component>
 </project>
