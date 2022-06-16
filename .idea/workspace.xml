@@ -9,11 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="046ca251-8da8-4c09-97a8-0e785274c116" name="Changes" comment="add methods newPerson, create">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="046ca251-8da8-4c09-97a8-0e785274c116" name="Changes" comment="add dp-postgresql into project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/mishin/spring/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mishin/spring/dao/PersonDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -285,7 +282,7 @@
       <workItem from="1654963125899" duration="90000" />
       <workItem from="1655028980274" duration="3397000" />
       <workItem from="1655115950158" duration="15197000" />
-      <workItem from="1655416153323" duration="1564000" />
+      <workItem from="1655416153323" duration="3345000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1654811552455</created>
@@ -357,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655135192633</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add dp-postgresql into project">
+      <created>1655417823472</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1655417823472</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,6 +401,7 @@
     <MESSAGE value="controller-model-view" />
     <MESSAGE value="create CRUD application" />
     <MESSAGE value="add methods newPerson, create" />
-    <option name="LAST_COMMIT_MESSAGE" value="add methods newPerson, create" />
+    <MESSAGE value="add dp-postgresql into project" />
+    <option name="LAST_COMMIT_MESSAGE" value="add dp-postgresql into project" />
   </component>
 </project>
