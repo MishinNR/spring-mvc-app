@@ -17,11 +17,12 @@
         который описан в методе контроллера show()
      2. Отображаем имя для каждого объекта person полученного в for-each
 -->
-    <a th:href="@{/people/{id}(id=${person.getId()})}" th:text="${person.getName()}">User</a>
+    <a th:href="@{/people/{id}(id=${person.getId()})}"
+       th:text="${person.getName() + ', ' + person.getAge()}">User</a>
 </div>
 
-<br>
-<hr>
+<br/>
+<hr/>
 
 <a href="/people/new">Create new person</a>
 

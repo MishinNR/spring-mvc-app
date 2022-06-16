@@ -3,9 +3,12 @@ package ru.mishin.spring.controllers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import ru.mishin.spring.dao.PersonDAO;
 import ru.mishin.spring.models.Person;
+
+import javax.validation.Valid;
 
 @Controller
 @RequestMapping("/people")
@@ -39,7 +42,10 @@ public class PeopleController {
     }
 
     @PostMapping()// http://localhost:8080/people <– POST
-    public String create(@ModelAttribute("person") Person person) {
+    public String create(@ModelAttribute("person") @Valid Person person,
+                         BindingResult bindingResult) {
+        if (bindingResult.hasErrors())
+            return "people/new";
         // Если в форме ничего не будет записано в объект person,
         // то в модель будет записан объект со значениями по умолчанию
         personDAO.save(person);
@@ -53,8 +59,10 @@ public class PeopleController {
     }
 
     @PatchMapping("/{id}") // http://localhost:8080/people/{id} <– PATCH
-    public String update(@ModelAttribute("person") Person person,
+    public String update(@ModelAttribute("person") @Valid Person person, BindingResult bindingResult,
                          @PathVariable("id") int id) {
+        if (bindingResult.hasErrors())
+            return "people/edit";
         personDAO.update(id, person);
         return "redirect:/people";
     }
