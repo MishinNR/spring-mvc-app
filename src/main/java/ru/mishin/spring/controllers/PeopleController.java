@@ -7,6 +7,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import ru.mishin.spring.dao.PersonDAO;
 import ru.mishin.spring.models.Person;
+import ru.mishin.spring.util.PersonValidator;
 
 import javax.validation.Valid;
 
@@ -14,10 +15,12 @@ import javax.validation.Valid;
 @RequestMapping("/people")
 public class PeopleController {
     private final PersonDAO personDAO;
+    private final PersonValidator personValidator;
 
     @Autowired
-    public PeopleController(PersonDAO personDAO) {
+    public PeopleController(PersonDAO personDAO, PersonValidator personValidator) {
         this.personDAO = personDAO;
+        this.personValidator = personValidator;
     }
 
     @GetMapping()// http://localhost:8080/people
@@ -44,6 +47,9 @@ public class PeopleController {
     @PostMapping()// http://localhost:8080/people <– POST
     public String create(@ModelAttribute("person") @Valid Person person,
                          BindingResult bindingResult) {
+
+        personValidator.validate(person, bindingResult); // Генерация ошибки через собственный валидатор
+
         if (bindingResult.hasErrors())
             return "people/new";
         // Если в форме ничего не будет записано в объект person,
@@ -61,6 +67,9 @@ public class PeopleController {
     @PatchMapping("/{id}") // http://localhost:8080/people/{id} <– PATCH
     public String update(@ModelAttribute("person") @Valid Person person, BindingResult bindingResult,
                          @PathVariable("id") int id) {
+
+        personValidator.validate(person, bindingResult); // Генерация ошибки через собственный валидатор
+
         if (bindingResult.hasErrors())
             return "people/edit";
         personDAO.update(id, person);
